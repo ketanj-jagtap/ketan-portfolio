@@ -1,11 +1,11 @@
-const sidemenu = document. querySelector ('#sidemenu');
+const sidemenu = document.querySelector('#sidemenu');
 const navBar =document.querySelector("nav")
 const navLinks =document.querySelector("nav ul")
 function openMenu(){
-   sidemenu.style.transform = 'translatex(-16rem)'; 
+   sidemenu.style.transform = 'translatex(16rem)'; 
 }
 function closeMenu(){
-    sidemenu.style.transform = 'translatex(16rem)';
+    sidemenu.style.transform = 'translatex(-16rem)';
  }
 
  window.addEventListener('scroll', ()=>{
