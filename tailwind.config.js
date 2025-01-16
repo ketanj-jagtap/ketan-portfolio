@@ -13,7 +13,7 @@ tailwind.config ={
            },
            colors:{
             lightHover:'#fcf4ff',
-            darktHover:'#2a004a',
+            darkHover:'#2a004a',
             darkTheme: '#11001F'
     
            },
